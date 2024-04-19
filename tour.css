@@ -1,0 +1,108 @@
+/* Your existing CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('fortkochi.jpg'); /* Replace 'fortkochi.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly opaque background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center align the content */
+}
+
+h1 {
+    color: #333; /* Dark text color */
+    font-size: 2em; /* Larger font size */
+    margin-bottom: 20px; /* Add some spacing below the heading */
+}
+
+p {
+    color: #666; /* Lighter text color */
+    font-size: 1.2em; /* Larger font size */
+    margin-bottom: 20px; /* Add some spacing below the paragraphs */
+}
+
+h2 {
+    color: #333; /* Dark text color */
+    font-size: 1.5em; /* Larger font size */
+    margin-bottom: 20px; /* Add some spacing below the subheadings */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #666; /* Darker text color */
+    font-weight: bold; /* Bold font weight */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+a:hover {
+    color: #333; /* Darker shade of custom color on hover */
+}
+
+/* Additional styling for the image */
+.destination-image {
+    width: 100%; /* Make destination images responsive */
+    max-width: 400px; /* Limit the maximum width of the image */
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+    margin: 20px auto; /* Center the image horizontally and add spacing */
+    display: block; /* Ensure the image is centered properly */
+}
+
+/* Navbar styles */
+/* Update existing styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.9); /* Dark background color */
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-logo {
+    width: 50px; /* Adjust the width as needed */
+    height: auto;
+}
+
+.navbar-links {
+    display: flex;
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links a {
+    color: #fff; /* Text color */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.navbar-links a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Hover background color */
+    border-radius: 4px; /* Rounded corners on hover */
+}
+
+
+
